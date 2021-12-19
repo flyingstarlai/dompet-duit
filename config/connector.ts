@@ -21,6 +21,6 @@ export const network = new NetworkConnector({
 export const walletConnect = new WalletConnectConnector({
     rpc: { 1: RPC_URLS[1] },
     qrcode: true,
-    bridge: 'https://relay.walletconnect.com/?projectId=f19ed29074ecc01fa4be25c85e9e1c3a'
+    bridge: 'https://bridge.walletconnect.org/'
 })
 
