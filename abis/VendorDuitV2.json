@@ -1,0 +1,18 @@
+[
+  "event AdminChanged(address previousAdmin, address newAdmin)",
+  "event BeaconUpgraded(address indexed beacon)",
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "event TokensPurchased(address indexed purchaser, address indexed beneficiary, uint256 value, uint256 amount)",
+  "event Upgraded(address indexed implementation)",
+  "function buyTokens(address beneficiary) payable",
+  "function getRate() view returns (uint256)",
+  "function getToken() view returns (address)",
+  "function getWallet() view returns (address)",
+  "function initialize(address token, uint256 rate, address wallet)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function transferOwnership(address newOwner)",
+  "function upgradeTo(address newImplementation)",
+  "function upgradeToAndCall(address newImplementation, bytes data) payable",
+  "function version() pure returns (string)"
+]
