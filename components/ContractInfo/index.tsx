@@ -14,7 +14,6 @@ import LinkIcon from "@mui/icons-material/Link";
 import ListItemText from "@mui/material/ListItemText";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import PaidIcon from "@mui/icons-material/Paid";
-import Web3 from "web3";
 
 interface MyAppProps {
     token:  string;
